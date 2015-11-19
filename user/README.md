@@ -9,4 +9,10 @@ This script doesn't add new account.
 
 If you skip to check users, you need to write the email to white_list.cvs.
 
+``
+sh check_user.sh
+``
+
+
+
 
