@@ -7,7 +7,7 @@
 HOME='/usr/local/sh/hipchat/user'
 FILE_NAME=`basename $0 .sh`
 
-DATEFORMAT=+%Y-%m-%d-%M
+DATEFORMAT=+%Y-%m-%d-%H-%M
 DATE=`date ${DATEFORMAT}`
 
 LOG_FILE="/tmp/${FILE_NAME}_${DATE}.log"
