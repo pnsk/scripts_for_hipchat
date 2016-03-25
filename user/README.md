@@ -1,17 +1,17 @@
 
-This script is for checking HipChat accounts by LDAP
+This script is for checking HipChat accounts integrated with LDAP
 
-+ get account list by HipChat API
-+ check whether the account is invalid or valid by LDAP
-+ set invalid or valid to HipChat accounts
++ Get account the list by using HipChat API.
++ Check if the account is invalid or valid by checking LDAP.
++ Change the role of the account in HipChat.
 
 This script doesn't add new account.
 
-If you skip to check users, you need to write the email to white_list.cvs.
+If you want to skip to check some users, you need to write the email of the account to `white_list.cvs`.
 
-``
+```
 sh check_user.sh
-``
+```
 
 
 
